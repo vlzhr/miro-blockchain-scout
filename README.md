@@ -8,7 +8,9 @@ The first blockchain I implemented is Waves Protocol. You can see the result of 
 
 ## How To
 
-To use this script you will need to authorize as a Miro developer. It's pretty simple and takes maximum 3 minutes. To get your Bearer API token just follow the [Quickstart guideline](https://developers.miro.com/docs/rest-api-build-your-first-hello-world-app) or watch [this video](https://youtu.be/MEXNEy5HDSw).
+To run this script you will need a Python 3.8+ and `requests` library pre-installed.
+
+Also you will need to authorize as a Miro developer. It's pretty simple and takes maximum 3 minutes. To get your Bearer API token just follow the [Quickstart guideline](https://developers.miro.com/docs/rest-api-build-your-first-hello-world-app) or watch [this video](https://youtu.be/MEXNEy5HDSw).
 
 As soon as you get Access Token, add it to the source file `wavesscout.py` and run it. After that, call `main(ADDRESS)` function, where `ADDRESS` is a Waves address (for example `3PC67eqTSZiXvnpLRo9odMAJ1EtXFKvKCJp`), whose connections you want to visualize. You will see some logs output and be able to find the chart in your Miro dashboard. 
 
