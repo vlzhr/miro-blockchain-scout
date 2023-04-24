@@ -1,1 +1,1 @@
-# miro-blockchain-scout
+# Miro Blockchain Scout
